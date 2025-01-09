@@ -1,5 +1,7 @@
 # Cossacks 3 LAN Server by Ereb
 
+updated: Dockerfile && build with cmake
+
 A cross-platform server for the RTS Cossacks 3, intended for use in local area networks.
 
 * [Installation](#installation)
