@@ -15,7 +15,7 @@ using namespace asio::ip;
 	Creates Asio TCP acceptor (default on port 31523), starts recursive
 	asynchronous connection acceptor.
 */
-Server::Server( asio::io_service& io_service ) :
+Server::Server( asio::io_context& io_service ) :
 	m_acceptor( io_service, tcp::endpoint( tcp::v4(), port ) ),
 	m_socket  ( io_service )
 {

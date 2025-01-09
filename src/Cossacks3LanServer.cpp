@@ -23,7 +23,7 @@ int main()
 	{
 		//see asio examples for details about library usage
 		//https://github.com/chriskohlhoff/asio/tree/master/asio/src/examples
-		asio::io_service io_service;
+		asio::io_context io_service;
 		Server server( io_service );
 		std::cout << " running on port " << port << std::endl;
 		io_service.run();
